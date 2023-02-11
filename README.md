@@ -16,6 +16,12 @@ RESTful API service for retrieving country's information all over the world
 cd country-service
 ```
 
+* Install dependencies
+
+```
+./mvnw clean install
+```
+
 * Start the server:
 
 ```bash
@@ -23,6 +29,9 @@ cd country-service
 ```
 
 The server has been configured to be run on port 8080. Therefore, the base URL is http://localhost:8080
+
+**Note: If the project is opened with IntelliJ IDEA, the dependencies installation and starting server can easily be
+done without the command above**
 
 ## API endpoints and documentation
 
