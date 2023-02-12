@@ -4,25 +4,31 @@ RESTful API service for retrieving country's information all over the world
 
 ## Prerequisites
 
-* [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) or later
-* [Maven](https://maven.apache.org/)
+- [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) or later
+- [Maven](https://maven.apache.org/)
+- [Git](https://git-scm.com/downloads)
 
 ## Installation instruction
 
-* Clone this repository
-* Go to the project
+- Clone this repository
 
+```bash
+git clone https://github.com/AnhNguyenMaiHoang219/country-service.git
 ```
+
+- Go to the project
+
+```bash
 cd country-service
 ```
 
-* Install dependencies
+- Install dependencies
 
-```
+```bash
 ./mvnw clean install
 ```
 
-* Start the server:
+- Start the server:
 
 ```bash
 ./mvnw spring-boot:run
@@ -37,14 +43,14 @@ done without the command above**
 
 #### Overview
 
-```bash
+```
 [GET] /countries (Get all the country codes)
 [GET] /countries/{country_name} (Get country details by a country name)
 ```
 
 #### For the API documentation, Swagger specification is configured and deployed to the following paths:
 
-```bash
+```
 - Swagger UI specification: "/swagger-ui.html"
 - OpenAPI description: "/v3/api-docs"
 ```
@@ -55,13 +61,13 @@ After starting the server. Please click one of those URLs below to try the servi
 
 #### API endpoints
 
-* [Retrieve all countries](http://localhost:8080/countries)
-* [Retrieve the country details of Finland](http://localhost:8080/countries/Finland)
+- [Retrieve all countries](http://localhost:8080/countries)
+- [Retrieve the country details of Finland](http://localhost:8080/countries/Finland)
 
 #### Documentation
 
-* [Open Swagger UI specification](http://localhost:8080/swagger-ui.html)
-* [Open OpenAPI description](http://localhost:8080/v3/api-docs)
+- [Open Swagger UI specification](http://localhost:8080/swagger-ui.html)
+- [Open OpenAPI description](http://localhost:8080/v3/api-docs)
 
 ## Integration service
 
