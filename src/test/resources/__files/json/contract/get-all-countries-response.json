@@ -5,12 +5,12 @@
       "country_code": "FI"
     },
     {
-      "name": "Vietnam",
-      "country_code": "VN"
-    },
-    {
       "name": "United States",
       "country_code": "US"
+    },
+    {
+      "name": "Vietnam",
+      "country_code": "VN"
     }
   ]
 }
